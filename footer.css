@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    margin-top: 2.5%;
+}
+.icono2 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.footer-message {
+    margin-left: 5%;
+    color: #060A24;
+    font-size: 16px;
+}
+
+.icono2 * {
+    margin: 0 5px;
+}

@@ -1,0 +1,25 @@
+.temas {
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #060A24;
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.icono1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.title-icono {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 1%;
+}
+
+
+

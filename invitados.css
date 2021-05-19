@@ -1,0 +1,22 @@
+.title-invitados {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #060A24;
+
+}
+
+.imagenes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-invitados {
+    width: 33.33%;
+    background-size: contain;
+}
+

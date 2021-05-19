@@ -1,0 +1,59 @@
+/* @media screen and (min-width: 400px) and (max-width: 600px) {
+    .title {
+        font-size: 36px;
+        line-height: 80%;
+    }
+
+    .button {
+        width: 90%;
+        margin-left: 15%;
+    }
+
+    .container-blue {
+        width: 130%;
+    }
+    
+    .episodios {
+        margin-left: 20%;
+    }
+
+    .spotify-container {
+        padding-left: 0;
+
+    }
+} */
+
+@media screen and (max-width: 600px) {
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .celular {
+        flex-direction: column;
+    }
+
+.button-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+    .button {
+        width: 70%;
+    }
+
+    .imagenes {
+        flex-direction: column;
+    }
+
+    .img-invitados {
+        width: 100%;
+    }
+
+
+
+}
