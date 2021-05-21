@@ -36,13 +36,14 @@
     color: #0000EC;
 }
 
-p {
+.info-title {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 24px;
-    text-align: left;
+    width: 60%;
+    margin-left: 130px;
 }
 
 .button {
@@ -79,7 +80,7 @@ p {
 
 }
 
-a:link {
+a {
     color: black;
     text-decoration: none;
 }

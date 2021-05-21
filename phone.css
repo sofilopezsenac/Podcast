@@ -19,10 +19,17 @@
 
 .text {
     margin-left: 20%;
+    font-family: 'IBM Plex Mono', monospace;
+    word-wrap: break-word;
+    font-size: 18px;
 }
 
 .celular * {
     z-index: 500;
     margin-top: -8%;
     margin-left: 10%;
+}
+
+.info > .text {
+    padding: 10px;
 }

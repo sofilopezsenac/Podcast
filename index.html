@@ -18,19 +18,32 @@
 
 <body>
     <div class="principal-container">
+        <div class="wrapper">
+            <div>
+                <img src="./img/logo.svg" alt="logo">
+            </div>
+            <div class="menu-mobile">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="label-checkbox">
+                    <div class="checkbox-boton">
+                        <div class="line line-top"></div>
+                        <div class="line line-mid"></div>
+                        <div class="line line-bottom"></div>
+                    </div>
+                </label>
+                <nav class="nav-mobile">
+                    <ul class="ul-mobile">
+                        <li class="nav-1" id="primer-li"><a href="#id_episodios">EPISODIOS</a></li>
+                        <li class="nav-1"><a href="#id_phone-title">NOSOTROS</a></li>
+                        <li class="nav-1"><a href="#id_title-invitados">ENTREVISTAS</a></li>
+                        <li class="nav-1"><a href="#id_temas">TOPICOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <div class="logo-nav">
             <nav class="menu">
                 <ul class="nav">
-                    <img src="./img/logo.svg" alt="logo">
-                    <li class="nav-1" id="primer-li"><a href="#id_episodios">EPISODIOS</a></li>
-                    <li class="nav-1"><a href="#id_phone-title">NOSOTROS</a></li>
-                    <li class="nav-1"><a href="#id_title-invitados">ENTREVISTAS</a></li>
-                    <li class="nav-1"><a href="#id_temas">TOPICOS</a></li>
-                </ul>
-            </nav>
-            <nav class="menu-mobile">
-                <ul class="nav-mobile">
-                    <img src="./img/logo.svg" alt="logo">
                     <li class="nav-1" id="primer-li"><a href="#id_episodios">EPISODIOS</a></li>
                     <li class="nav-1"><a href="#id_phone-title">NOSOTROS</a></li>
                     <li class="nav-1"><a href="#id_title-invitados">ENTREVISTAS</a></li>
@@ -38,14 +51,14 @@
                 </ul>
             </nav>
         </div>
+
         <div>
             <div class="title"> Hello <strike>world</strike> pale blue dot
                 <span class="dot">.</span>
             </div>
         </div>
         <div>
-            <p>El portal de podcast que explora el mundo de la programacion y<br /> tecnologia. Nuevos espisodios, todos
-                los jueves cada 15 dias.</p>
+            <p class="info-title">El portal de podcast que explora el mundo de la programacion y tecnologia. Nuevos espisodios, todos los jueves cada 15 dias.</p>
         </div>
         <br />
         <div class="button-container">
@@ -73,9 +86,10 @@
             <div class="info">
                 <h3 class="phone-title">De dónde venimos</h3>
                 <p class="text">Our posturings, our imagined self-importance,the delusion that we have some privileged
-                    position in the Universe, are challenged by this point of pale light.Our planet is a lonely speck in
-                    the great enveloping cosmic dark. In our obscurity, in all this
-                    vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                    position in the Universe, are challenged by this point of pale light.</p>
+                <p class="text">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in
+                    all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
             </div>
         </div>
 
@@ -95,37 +109,42 @@
         <div>
             <h2 class="temas" id="id_temas">Algunos de nuestros temas</h2>
             <div class="icono1">
-                <img src="./img/icon1.svg" alt="">
-                <img src="./img/icon2.svg" alt="">
-                <img src="./img/icon3.svg" alt="">
-                <img src="./img/icon4.svg" alt="">
+                <div class="icono-tema">
+                    <img src="./img/icon1.svg" alt="">
+                    <p class="subtitulo">trabajo remoto</p>
+                </div>
+                <div class="icono-tema">
+                    <img src="./img/icon2.svg" alt="">
+                    <p class="subtitulo">Repensando la programacion</p>
+                </div>
+
+                <div class="icono-tema">
+                    <img src="./img/icon3.svg" alt="">
+                    <p class="subtitulo">Bases del codigo</p>
+                </div>
+                <div class="icono-tema">
+                    <img src="./img/icon4.svg" alt="">
+                    <p class="subtitulo">Seguridad informatica</p>
+                </div>
             </div>
-            <div class="title-icono">
-                <p class="titulo1">trabajo remoto</p>
-                <p class="titulo2">Repensando la<br /> programacion</p>
-                <p class="titulo3">Bases del codigo</p>
-                <p class="titulo4">Seguridad<br /> informatica</p>
+
+            <div class="container-blue2">
+                <p class="novedades">¿Querés las últimas novedades?</p>
+                <button type="type" class="button-2">ESCUCHÁ LOS EPISODIOS</button>
             </div>
-        </div>
 
-        <div class="container-blue2">
-            <p class="novedades">¿Querés las últimas novedades?</p>
-            <button type="type" class="button-2">ESCUCHÁ LOS EPISODIOS</button>
-        </div>
-    </div>
+            <div class="footer">
+                <div class="footer-message">© 2019— Hello blue pale dot </div>
+                <div class="icono2">
+                    <img src="./img/spotify.png" alt="spotify" height="15px">
+                    <img src="./img/instagram.png" alt="instagram" height="15px">
+                    <img src="./img/twitter.png" alt="twitter" height="15px">
+                    <img src="./img/facebook.png" alt="facebook" height="15px">
+                    <img src="./img/telegram.png" alt="telegram" height="15px">
+                </div>
+            </div>
 
-    <div class="footer">
-        <div class="footer-message">© 2019— Hello blue pale dot </div>
-        <div class="icono2">
-            <img src="./img/spotify.png" alt="spotify" height="15px">
-            <img src="./img/instagram.png" alt="instagram" height="15px">
-            <img src="./img/twitter.png" alt="twitter" height="15px">
-            <img src="./img/facebook.png" alt="facebook" height="15px">
-            <img src="./img/telegram.png" alt="telegram" height="15px">
         </div>
-    </div>
-
-    </div>
 </body>
 
 </html>
