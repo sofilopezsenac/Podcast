@@ -43,6 +43,8 @@
         border: 1px solid black;
         width: 80%;
         margin: 2px;
+        background-color: black;
+        margin-top: 13%;
     }
 
     .checkbox-boton {
@@ -51,19 +53,35 @@
         height: 20px;
         cursor: pointer;
         border-radius: 5px;
+    
     }
 
     #primer-li {
-        margin-left: 0;
+        margin-left: 1.5%;
     }
 
     .ul-mobile {
         list-style: none;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        transform: translateX(100%);
+        transition: all 1s ease;
+
+    }
+
+    #checkbox {
+        display: none;
+    }
+
+    .ul-mobile:checked {
+        position: absolute;
+        width: 100vw;
+        transform: translateX(0%);
     }
         
     .ul-mobile a { 
         color: white;
+        margin-left: 2%;
+        margin-top: 1%;
     }
 
     .nav-mobile {
@@ -78,6 +96,7 @@
     #checkbox:checked~.nav-mobile {
         display: block;
     }
+
 
     .container-blue {
         height: 280%;
@@ -152,7 +171,7 @@
     }
 
     .novedades {
-        font-size: 36px;
+        font-size: 20px;
     }
 
     .button-2 {
