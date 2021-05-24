@@ -68,11 +68,16 @@
     #checkbox:checked+.label-checkbox .line-bottom {
         transform: translate(-50%, -50%) rotate(45deg);
         top: 25%;
+        transition: all 1s ease;
+        width: 90%;
+
     }
     
     #checkbox:checked+.label-checkbox .line-top {
         transform: translate(-50%, -50%) rotate(-45deg);
-        25%
+        transition: all 1s ease;
+        width: 90%;
+
     
     }
     
@@ -109,6 +114,8 @@
         position: absolute;
         width: 100vw;
         transform: translateX(0%);
+        transition: all 1s ease;
+
     }
 
     .ul-mobile a {
@@ -132,7 +139,7 @@
 
 
     .container-blue {
-        height: 280%;
+        height: 1300px;
     }
 
     .celular {
@@ -174,6 +181,7 @@
 
     .episodios {
         margin-left: 20%;
+        font-size: 36px;
     }
 
     .spotify-container {
