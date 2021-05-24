@@ -111,8 +111,6 @@
     }
 
     .ul-mobile:checked {
-        position: absolute;
-        width: 100vw;
         transform: translateX(0%);
         transition: all 1s ease;
 
@@ -227,7 +225,7 @@
     }
 
     .footer-message {
-        margin-left: 32%;
+        margin-left: 65px;
     }
 
 
