@@ -130,7 +130,7 @@
         margin: 20px 15px;
     }
 
-    li:hover {
+    a:hover {
         color: #00f3bb;
         text-decoration: line-through;
     }

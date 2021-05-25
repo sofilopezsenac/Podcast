@@ -83,14 +83,7 @@
 
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
 
-a:visited, a:active{
-    color:black;
-  }  
 
 button:hover {
     background: linear-gradient(270deg,
@@ -102,7 +95,15 @@ button:hover {
 }
 
 
-li:hover {
+a {
+    text-decoration: none;
+}
+
+a:visited, a:active{
+    color:black;
+  }  
+
+a:hover {
     color: #00f3bb;
     text-decoration: line-through;
 }
