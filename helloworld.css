@@ -88,6 +88,10 @@ a {
     text-decoration: none;
 }
 
+a:visited, a:active{
+    color:black;
+  }  
+
 button:hover {
     background: linear-gradient(270deg,
             blue,

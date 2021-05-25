@@ -1,24 +1,23 @@
-@media screen and ( min-width: 601px) and (max-width: 900) {
-    
+@media screen and (min-width: 601px) and (max-width: 900px) {
 
-iframe {
-    width: 350px;
-}
+    iframe {
+        width: 300px;
+    }
 
-.button {
-width: 35%;
-}
+    .button {
+        width: 300px;
+    }
 
-#primer-li {
-    margin-left: 40%;
-}
+    #primer-li {
+        margin-left: 350px;
+    }
 
-.button-2 {
-    width: 40%;
-}
+    .container-blue {
+        height:900px;
+    }
 
-.container-blue {
-    height: 100%;
-}
+    .text {
+        margin-left: 20px;
+    }
 
 }

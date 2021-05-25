@@ -72,15 +72,15 @@
         width: 90%;
 
     }
-    
+
     #checkbox:checked+.label-checkbox .line-top {
         transform: translate(-50%, -50%) rotate(-45deg);
         transition: all 1s ease;
         width: 90%;
 
-    
+
     }
-    
+
     #checkbox:checked+.label-checkbox .line-mid {
         opacity: 0;
     }
@@ -117,14 +117,22 @@
     }
 
 
-    #checkbox:checked ~ .ul-mobile {
+    #checkbox:checked~.ul-mobile {
         transform: translatex(0);
         transition: all 1s ease;
     }
 
-    .ul-mobile a {
+    a,
+    a:visited,
+    a:active {
         color: white;
+        text-decoration: none;
         margin: 20px 15px;
+    }
+
+    li:hover {
+        color: #00f3bb;
+        text-decoration: line-through;
     }
 
     .container-blue {
@@ -173,7 +181,7 @@
         font-size: 36px;
     }
 
-    
+
 
     iframe {
         width: 85%;
@@ -200,10 +208,12 @@
 
     .novedades {
         font-size: 20px;
+        margin-top: 150px;
+        padding: 40px;
     }
 
     .button-2 {
-        width: 50%;
+        width: 300px;
     }
 
     .footer {
@@ -219,8 +229,8 @@
         margin-left: 65px;
     }
 
-    
-  
+
+
 
 
 }
