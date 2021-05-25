@@ -98,7 +98,17 @@
         margin-left: 1.5%;
     }
 
+    #checkbox {
+        display: none;
+    }
+
     .ul-mobile {
+        display: block;
+        position: fixed;
+        left: 0;
+        margin-top: 20px;
+        z-index: 1000;
+        width: 100%;
         list-style: none;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
         transform: translatex(-600px);
@@ -106,37 +116,16 @@
 
     }
 
-    #checkbox {
-        display: none;
-    }
 
     #checkbox:checked ~ .ul-mobile {
         transform: translatex(0);
         transition: all 1s ease;
-        opacity: 1;
-
     }
 
     .ul-mobile a {
         color: white;
-        margin-left: 2%;
-        margin-top: 1%;
+        margin: 20px 15px;
     }
-
-    .nav-mobile {
-        display: none;
-        margin-top: 20px;
-        position: fixed;
-        width: 100%;
-        left: -480px;
-        z-index: 1000;
- 
-    }
-
-    #checkbox:checked~.nav-mobile {
-        display: block;
-    }
-
 
     .container-blue {
         height: 1300px;
@@ -153,7 +142,7 @@
 
     .phone {
         margin-left: 0;
-        margin-top: -25%;
+        margin-top: -80px;
     }
 
 
