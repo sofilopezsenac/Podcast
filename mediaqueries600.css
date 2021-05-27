@@ -1,7 +1,10 @@
 @media screen and (max-width: 600px) {
 
+    .logo-desktop {
+        display: none;
+    }
 
-    .logo {
+    .logo-mobile {
         display: flex;
     }
 
@@ -111,7 +114,7 @@
         width: 100%;
         list-style: none;
         background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-        transform: translatex(-600px);
+        transform: translatex(-612px);
         transition: all 1s ease;
 
     }
@@ -153,6 +156,9 @@
         margin-top: -80px;
     }
 
+    #primer-li {
+        margin-left: 8%;
+    }
 
 
     .button-container {

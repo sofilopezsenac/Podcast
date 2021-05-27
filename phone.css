@@ -6,6 +6,7 @@
     z-index: 500;
     align-items: center;
 }
+
 .phone-title {
     margin-bottom: 10%;
     font-size: 48px;
@@ -30,6 +31,6 @@
     margin-left: 10%;
 }
 
-.info > .text {
+.info>.text {
     padding: 5%;
 }

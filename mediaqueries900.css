@@ -1,5 +1,8 @@
 @media screen and (min-width: 601px) and (max-width: 900px) {
 
+
+
+
     iframe {
         width: 300px;
     }
@@ -13,11 +16,19 @@
     }
 
     .container-blue {
-        height:900px;
+        height: 900px;
     }
 
     .text {
         margin-left: 20px;
     }
 
+    .nav {
+        margin-left: -8%;
+
+    }
+
+    .nav-1 {
+        margin-left: 3.5%;
+    }
 }
